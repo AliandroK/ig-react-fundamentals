@@ -31,6 +31,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.2.6"],\
             ["@types/react-dom", "npm:18.2.4"],\
             ["@vitejs/plugin-react", "virtual:d6fcd1fb079392881f46c336e67bab00f70a36ca71220c29716ad59985d066398c2e678a39a381b6bfb9c2949a60bb0f09d8531e213b8a36eaf07620454eef79#npm:3.1.0"],\
+            ["date-fns", "npm:2.30.0"],\
             ["phosphor-react", "virtual:d6fcd1fb079392881f46c336e67bab00f70a36ca71220c29716ad59985d066398c2e678a39a381b6bfb9c2949a60bb0f09d8531e213b8a36eaf07620454eef79#npm:1.4.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:d6fcd1fb079392881f46c336e67bab00f70a36ca71220c29716ad59985d066398c2e678a39a381b6bfb9c2949a60bb0f09d8531e213b8a36eaf07620454eef79#npm:18.2.0"],\
@@ -322,6 +323,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@babel/core",\
             "@types/babel__core"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@babel/runtime", [\
+        ["npm:7.22.3", {\
+          "packageLocation": "./.yarn/cache/@babel-runtime-npm-7.22.3-0fd780f66a-8fc50785ca.zip/node_modules/@babel/runtime/",\
+          "packageDependencies": [\
+            ["@babel/runtime", "npm:7.22.3"],\
+            ["regenerator-runtime", "npm:0.13.11"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -983,6 +994,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["date-fns", [\
+        ["npm:2.30.0", {\
+          "packageLocation": "./.yarn/cache/date-fns-npm-2.30.0-895c790e0f-f7be015232.zip/node_modules/date-fns/",\
+          "packageDependencies": [\
+            ["date-fns", "npm:2.30.0"],\
+            ["@babel/runtime", "npm:7.22.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["debug", [\
         ["npm:4.3.4", {\
           "packageLocation": "./.yarn/cache/debug-npm-4.3.4-4513954577-3dbad3f94e.zip/node_modules/debug/",\
@@ -1156,6 +1177,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.2.6"],\
             ["@types/react-dom", "npm:18.2.4"],\
             ["@vitejs/plugin-react", "virtual:d6fcd1fb079392881f46c336e67bab00f70a36ca71220c29716ad59985d066398c2e678a39a381b6bfb9c2949a60bb0f09d8531e213b8a36eaf07620454eef79#npm:3.1.0"],\
+            ["date-fns", "npm:2.30.0"],\
             ["phosphor-react", "virtual:d6fcd1fb079392881f46c336e67bab00f70a36ca71220c29716ad59985d066398c2e678a39a381b6bfb9c2949a60bb0f09d8531e213b8a36eaf07620454eef79#npm:1.4.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:d6fcd1fb079392881f46c336e67bab00f70a36ca71220c29716ad59985d066398c2e678a39a381b6bfb9c2949a60bb0f09d8531e213b8a36eaf07620454eef79#npm:18.2.0"],\
@@ -1834,6 +1856,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["inherits", "npm:2.0.4"],\
             ["string_decoder", "npm:1.3.0"],\
             ["util-deprecate", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["regenerator-runtime", [\
+        ["npm:0.13.11", {\
+          "packageLocation": "./.yarn/cache/regenerator-runtime-npm-0.13.11-90bf536060-27481628d2.zip/node_modules/regenerator-runtime/",\
+          "packageDependencies": [\
+            ["regenerator-runtime", "npm:0.13.11"]\
           ],\
           "linkType": "HARD"\
         }]\
